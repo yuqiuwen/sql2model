@@ -583,7 +583,7 @@ CREATE INDEX "ix_role_parent_id_id_state" on role(org_id, state);""")
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    app.setWindowIcon(QtGui.QIcon("./sql_ico.png"))
+    app.setWindowIcon(QtGui.QIcon("assets/favicon.ico"))
     window = SQLToSQLAlchemyConverter()
     window.show()
     sys.exit(app.exec())
